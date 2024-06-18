@@ -11,5 +11,6 @@ It also takes two parameters-
 1. "address"- the address from which the tokens will be removed.
 2. "value"- the number of token to be destroyed .
 The function ensures that the address has enough tokens to burn.If not it throws an error with the message in sufficient balance to burn.The total supply is decreased by value.
+In this code i can mint any amount of token a per my requirement and can also burn token according to my requirements its a very basic code which can easily  give  you understanding of how we can burn and mint token on solidity.
 The balance of address in the balance mapping is decreased by value.
 The code mantains a record of token balances for each address.It keeps track of the total supply of token in circulation.
